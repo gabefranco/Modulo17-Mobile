@@ -1,6 +1,5 @@
 
 const { join } = require('path')
-
 const allure = require('allure-commandline')
 const video = import('wdio-video-reporter')
 
@@ -73,3 +72,4 @@ exports.config = {
 
 }
 
+// teste da nova branch usando o device farm
