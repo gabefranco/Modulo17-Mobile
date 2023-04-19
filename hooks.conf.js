@@ -6,7 +6,7 @@ let hooksConf = {
     },
     beforeSuite: async function(){
         //verificar se o app ja esta instalado e executando
-        let state = await driver.queryAppState("br.art.ebaconline")
+        let state = await driver.queryAppState("com.woocommerce.android")
         if(state !== 4){
             await driver.launchApp()
         }
