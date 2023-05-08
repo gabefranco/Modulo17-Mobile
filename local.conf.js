@@ -9,7 +9,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
         platformVersion: "8.1",
         deviceName: "ebac-qe",
         automationName: "UiAutomator2",
-        app: join(process.cwd(), './app/android/wcandroid-12.9-Signed.apk'),
+        app: join(process.cwd(), './app/android/ebac-qe1.apk'),
         appWaitActivity: 'com.woocommerce.android.ui.login.LoginActivity',
         newCommandTimeout: 240
     }]

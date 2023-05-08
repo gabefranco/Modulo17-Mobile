@@ -5,7 +5,7 @@ const { generalConf } = require('./general.conf')
 let capabilities = process.env.PLATFORM === 'android' ? {
     capabilities: [{
         platformName: "Android",
-        "appium:app": "storage:filename=wcandroid-12.9-Signed.apk",
+        "appium:app": "storage:filename=ebac-qe1.apk",
         "appium:deviceName": "Samsung.*",
         "appium:platformVersion": "10",
         "appium:automationName": "UiAutomator2",
